@@ -5,7 +5,7 @@ body{
 }
 .head{
     
-    background-image: url("faq-accordion-main/assets/images/background-pattern-mobile.svg");
+    background-image: url("images/background-pattern-mobile.svg");
     height:15rem;
 
 }
@@ -105,7 +105,7 @@ p{
 */
 @media screen  and (orientation: landscape){
     .head{
-        background-image: url('faq-accordion-main/assets/images/background-pattern-desktop.svg');
+        background-image: url('images/background-pattern-desktop.svg');
     }
     .container{
         max-width: 30rem;
