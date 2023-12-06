@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+    background: hsl(275, 100%, 97%);
+}
+.head{
+    
+    background-image: url("faq-accordion-main/assets/images/background-pattern-mobile.svg");
+    height:15rem;
+
+}
+.container{
+    background:white;
+    border-radius: 0.8rem;
+    margin:0.6rem;
+    position:relative;
+    bottom:10rem;
+    box-shadow: 0.8rem 1rem 1rem rgba(17, 13, 13, 0.486);
+}
+.header{
+    display:grid;
+    grid-template-columns: repeat(2, 3rem);
+    gap:1rem;
+}
+.star{
+    max-height:2.5rem;
+    max-width:2.5rem;
+    position:relative;
+    top:1.5rem;
+}
+.heading{
+    font-size:2.3rem;
+}
+section{
+    margin:10px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sect-1{
+    display:grid;
+    grid-template-columns: 14rem 4rem;
+    gap:4rem;
+}
+p{
+    text-align:justify;
+    box-sizing: 14rem;
+}
+.minus{
+    position: relative;
+    top:1.2rem;
+}
+.inner-1{
+    display:grid;
+    grid-template-columns: 14rem 4rem;
+    gap:4rem;
+    cursor:pointer;
+}
+.inners-1{
+    display:grid;
+    grid-template-columns: 14rem 4rem;
+    gap:4rem;
+}
+.inners-2{
+    display:grid;
+    grid-template-columns: 14rem 4rem;
+    gap:4rem;
+}
+ .sect-2{
+    display:inline-block;
+    cursor:pointer;
+}
+.sect-2 p{
+    cursor:pointer;
+}
+.sect-2:hover .art-1{
+    display: block;
+}
+.art-1{
+    display: none;
+}
+.sect-3{
+    display:inline-block;
+    cursor:pointer;
+}
+.sect-3 p{
+    cursor:pointer;
+}
+.sect-3:hover .art-1{
+    display: block;
+}
+.sect-4{
+    display:inline-block;
+    cursor:pointer;
+}
+.sect-4 p{
+    cursor:pointer;
+}
+.sect-4:hover .art-1{
+    display: block;
+}
+
+
+/* 
+    DESKTOP VERSION
+*/
+@media screen  and (orientation: landscape){
+    .head{
+        background-image: url('faq-accordion-main/assets/images/background-pattern-desktop.svg');
+    }
+    .container{
+        max-width: 30rem;
+        position:relative;
+        left:25rem;
+        box-shadow: 0.8rem 1rem 1rem rgba(17, 13, 13, 0.486);
+    }
+    section{
+        margin:1rem;
+        margin-left:1.5rem;
+    }
+    .inner-1{
+        display:grid;
+        grid-template-columns: 14rem 4rem;
+        gap:10rem;
+        cursor:pointer;
+    }
+    .inners-1{
+        display:grid;
+        grid-template-columns: 14rem 4rem;
+        gap:10rem;
+    }
+    .inners-2{
+        display:grid;
+        grid-template-columns: 14rem 4rem;
+        gap:10rem;
+    }
+    .sect-1{
+        display:grid;
+        grid-template-columns: 14rem 4rem;
+        gap:10rem;
+    }
+}
